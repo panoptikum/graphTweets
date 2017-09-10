@@ -34,7 +34,7 @@
 #' plot(g)
 #' 
 #' # add attributes to vertices
-#' edges <- getEdges(data = tweets, tweets = "text", source = "screenName", 
+#' edges <- getEdges(data = tweets, tweets = "text", source = "screenName", str.length=NULL
 #'                   "retweetCount")
 #' nodes <- getNodes(edges, source = "source", target = "target", 
 #'                   "retweetCount")
